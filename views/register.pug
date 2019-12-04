@@ -1,0 +1,13 @@
+h1 sign up form
+
+li
+  a(href="/login") Login
+li
+  a(href="/register") Sign Up
+li
+  a(href="logout") Logout
+
+form(action="/register" method="POST")
+  input(type="text" name="username" placeholder="username")
+  input(type="password" name="password" placeholder="password")
+  button Submit
